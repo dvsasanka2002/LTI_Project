@@ -1,0 +1,87 @@
+
+{
+
+    "carrier submission": {
+        "Id": "2020A7PS0005H",
+        "Carrier": "Penmerica",
+        "Rater": null,
+        "BusinessType": "Bussiness",
+        "Insured": {
+           "Name": "DV Sasanka",
+           "DoingBusinessAs": null,
+           "Address": {
+               "Address1": "LLLLL",
+               "Address2": "GGGGG",
+               "City": "Australia",
+               "State": "AP",
+               "ZipCode": 123456789,
+               "County": null,
+               "Quadrant": null
+            },
+           "ForeignAddress": null
+         },
+         "RetailAgency": null,
+         "EffectiveDate": "2022-05-15T17:51:03.75-04:00",
+         "ExpirationDate": "2023-05-15T17:51:03.75-04:00",
+         "Locations": [
+             {
+                 "Sequence": 1,
+                 "DistanceToCoast": 999.0,
+                 "DistanceToCoastOverride": false,
+                 "Address": {
+                     "Address1": "qqqqqqqqq",
+                     "Address2": "fffffffff",
+                     "City": "CD",
+                     "State": "ANDHRA",
+                     "ZipCode": 7123456,
+                     "County": "Transylvania",
+                     "Quadrant": null
+                },
+               "IsMultipleOccupancy": false,
+               "IsonlyGL": false,
+               "BuildingID": 0
+             }
+           ],
+           "CommercialGeneralLiability": {
+              "OccurenceLimit": 1001233,
+              "AggregateLimit": 1001478,
+              "ProductsCompletedOperationsLimit": null,
+              "MedicalExpensesLimit": null,
+              "DamageToPremesisRentedToYouLimit": null,
+              "PersonalInjuryAndAdvertisingLimit": null,
+              "PremOpsDeductible": null,
+              "ProdOpsDeductible": null,
+              "ProfessionalIncidentLimit": null,
+              "Classifications": [
+                   {
+                        "IfAny": false,
+                        "AdditionalInsured": 0,
+                        "Deductible": null,
+                        "PremiumBasis": {
+                            "Exposure": 120000,
+                            "BasisType": 5
+                         },
+                        "OwnersBasis": {
+                             "Exposure": 2,
+                             "BasisType": 14
+                         },
+                         "IsSubContractor": true,
+                         "OwnerPayrollAmt": 20000,
+                         "SnowRemoval": 0,
+                         "Programs": [],
+                         "ClassCode": "99hh312345678",
+                         "ClassCodeDescription": "Truc1452414521",
+                         "LocationSequence": 1,
+                         "AdditionalPremium": null
+                   }
+                ],
+                "Premium": 0
+            },
+            "CommercialLinesProperty": null,
+            "PersonalLinesLiability": null,
+            "PersonalLinesProperty": null,
+            "InlandMarine": null,
+            "LiquorLiability": null,
+            "Terrorism": null
+         }
+   }

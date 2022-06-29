@@ -1,0 +1,87 @@
+
+{
+
+ "carrier submission": {
+     "Id": "87a3d839-12c7-4714-82f3-b2a3a26c0930",
+     "Carrier": "PennAmerica",
+     "Rater": null,
+     "BusinessType": null,
+     "Insured": {
+        "Name": "FiiGrGQeQwHUJqrYDCJkilVN",
+        "DoingBusinessAs": null,
+        "Address": {
+            "Address1": "1703B Bench Mark Dr",
+            "Address2": "",
+            "City": "Austin",
+            "State": "TX",
+            "ZipCode": 78728,
+            "County": null,
+            "Quadrant": null
+         },
+        "ForeignAddress": null
+      },
+      "RetailAgency": null,
+      "EffectiveDate": "2022-05-15T17:51:03.75-04:00",
+      "ExpirationDate": "2023-05-15T17:51:03.75-04:00",
+      "Locations": [
+          {
+              "Sequence": 1,
+              "DistanceToCoast": 999.0,
+              "DistanceToCoastOverride": false,
+              "Address": {
+                  "Address1": "1703B Bench Mark Dr",
+                  "Address2": "",
+                  "City": "Austin",
+                  "State": "TX",
+                  "ZipCode": 78728,
+                  "County": "Travis",
+                  "Quadrant": null
+             },
+            "IsMultipleOccupancy": false,
+            "IsonlyGL": false,
+            "BuildingID": 0
+          }
+        ],
+        "CommercialGeneralLiability": {
+           "OccurenceLimit": 1000000.0,
+           "AggregateLimit": 1000000.0,
+           "ProductsCompletedOperationsLimit": null,
+           "MedicalExpensesLimit": null,
+           "DamageToPremesisRentedToYouLimit": null,
+           "PersonalInjuryAndAdvertisingLimit": null,
+           "PremOpsDeductible": null,
+           "ProdOpsDeductible": null,
+           "ProfessionalIncidentLimit": null,
+           "Classifications": [
+                {
+                     "IfAny": false,
+                     "AdditionalInsured": 0,
+                     "Deductible": null,
+                     "PremiumBasis": {
+                         "Exposure": 120000,
+                         "BasisType": 5
+                      },
+                     "OwnersBasis": {
+                          "Exposure": 2,
+                          "BasisType": 14
+                      },
+                      "IsSubContractor": true,
+                      "OwnerPayrollAmt": 20000,
+                      "SnowRemoval": 0,
+                      "Programs": [],
+                      "ClassCode": "99793",
+                      "ClassCodeDescription": "Truckers",
+                      "LocationSequence": 1,
+                      "AdditionalPremium": null
+                }
+             ],
+             "Premium": 0
+         },
+         "CommercialLinesProperty": null,
+         "PersonalLinesLiability": null,
+         "PersonalLinesProperty": null,
+         "InlandMarine": null,
+         "LiquorLiability": null,
+         "Terrorism": null
+      }
+}
